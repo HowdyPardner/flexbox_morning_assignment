@@ -1,0 +1,41 @@
+nav {
+    display: flex;
+    justify-content: space-around;
+    width: 400px;
+    height: 50px;
+    align-items: center;
+    margin-bottom: 10px;
+    background-color: #75cbfd ;
+}
+
+.sidebar {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: space-around;
+    gap: 10px;
+    width: 250px;
+    margin-bottom: 10px;
+    background-color: #75cbfd;
+    height: 150px;
+}
+
+.buttons-container {
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+}
+
+.sidebar div > button {
+    border-radius: 15px;
+    border-style: none;
+}
+
+footer {
+    display: flex;
+    justify-content: space-around;
+    background-color: #75cbfd;
+    width: 400px;
+    height: 50px;
+    align-items: center;
+}
